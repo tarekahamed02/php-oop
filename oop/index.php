@@ -240,3 +240,34 @@
 
 // $r = new Ractangle(8, 5);
 // $r->getArea();
+
+
+class Parentclass
+{
+
+    protected $name;
+
+    public function __construct($name)
+    {
+        $this->name = $name;
+        $this->sayHi();
+    }
+
+    public function sayHi()
+    {
+        echo "Hi i am parent {$this->name}\n";
+    }
+}
+
+
+class Childclass extends Parentclass
+{
+    public function sayHi()
+    {
+        parent::sayHi();
+        echo "Hello i am child {$this->name}\n";
+    }
+}
+
+
+$class = new Childclass("class");
