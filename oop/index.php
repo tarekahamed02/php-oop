@@ -242,32 +242,38 @@
 // $r->getArea();
 
 
-class Parentclass
-{
+// class Parentclass
+// {
 
-    protected $name;
+//     protected $name;
 
-    public function __construct($name)
-    {
-        $this->name = $name;
-        $this->sayHi();
-    }
+//     public function __construct($name)
+//     {
+//         $this->name = $name;
+//         $this->sayHi();
+//     }
 
-    public function sayHi()
-    {
-        echo "Hi i am parent {$this->name}\n";
-    }
-}
-
-
-class Childclass extends Parentclass
-{
-    public function sayHi()
-    {
-        parent::sayHi();
-        echo "Hello i am child {$this->name}\n";
-    }
-}
+//     public function sayHi()
+//     {
+//         echo "Hi i am parent {$this->name}\n";
+//     }
+// }
 
 
-$class = new Childclass("class");
+// class Childclass extends Parentclass
+// {
+//     public function sayHi()
+//     {
+//         parent::sayHi();
+//         echo "Hello i am child {$this->name}\n";
+//     }
+// }
+
+
+// $class = new Childclass("class");
+
+
+
+// New class started
+
+
